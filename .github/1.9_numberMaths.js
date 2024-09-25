@@ -17,4 +17,7 @@ console.log(Math.floor(4.9));
 console.log(Math.min(4,5,3,9));
 console.log(Math.max(4,7,6,9));
 console.log(Math.random()); // always betwwen 0 and 1
-console.log((Math.random()*10)+1);
+console.log((Math.random()*10)+1);  //to avoid values=0
+const min=10;
+const max =20
+console.log(Math.floor(Math.random()*(max-min+1))+min)// to give range and avoid 0
