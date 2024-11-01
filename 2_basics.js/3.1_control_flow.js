@@ -32,4 +32,15 @@ switch(month){
         break;         
     default:
         break;    
-}
+}   // value added in string is always true
+
+// Nullish coalescing operator(??): null undefined
+let val1;
+// val1=5??10--->5 // checks the safety of null
+// val1=null??10--->10
+val1=undefined??10//--->undefined
+console.log(val1);
+//ternary operator
+//condition ? true :false
+const price=100
+price>=80 ? console.log("greater"):console.log("lesser")
